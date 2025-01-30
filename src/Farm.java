@@ -26,6 +26,10 @@ public class Farm {
             System.out.println(plants.get(i));
         }
     }
+    public String zaliti(int index,int kolik){
+        plants.get(index).zavlazovani(kolik);
+        return "ZALITO";
+    }
 
 
 

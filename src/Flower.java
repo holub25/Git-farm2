@@ -13,6 +13,7 @@ public abstract class Flower {
     }
 
     public String zavlazovani(int plus){
+        System.out.println("PPPPP");
         chanceOfGrowth = chanceOfGrowth + plus;
         return "Sance zvysena";
     }
