@@ -38,4 +38,19 @@ public abstract class Flower {
                 '}';
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getNeededArea() {
+        return neededArea;
+    }
+
+    public double getChanceOfGrowth() {
+        return chanceOfGrowth;
+    }
 }

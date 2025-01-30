@@ -15,7 +15,7 @@ public class Farm {
     }
 
     public void addToField(int type){
-        if(plants.size()<=5){
+        if(plants.size()<5){
             plants.add(Flower.vyberKyku(type));
         }else {
             System.out.println("Pole je plne");
@@ -31,8 +31,7 @@ public class Farm {
         return "ZALITO";
     }
 
-
-
-
-
+    public ArrayList<Flower> getPlants() {
+        return plants;
+    }
 }
